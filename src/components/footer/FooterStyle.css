@@ -1,0 +1,39 @@
+.newsletter-section {
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #474545;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .newsletter-content {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .small-text{
+      margin-bottom: 10px;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 10px;
+    }
+      .icon {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
